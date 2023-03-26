@@ -1,13 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-import {animate} from "./threeJsRenderer";
+// import {animate} from "./threeJsRenderer";
+import {MovingCubes} from "./componenents /MovingCubes";
 
 function App() {
   return (
     <div>
       <header>
         <div>
-            {animate()}
+            <MovingCubes />
         </div>
       </header>
     </div>
