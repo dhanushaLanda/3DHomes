@@ -8,7 +8,7 @@ const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
-const geometry = new THREE.BoxBufferGeometry(1, 1, 1);
+const geometry = new THREE.CircleGeometry(1, 1, 1);
 const material = new THREE.MeshBasicMaterial({color: 0x00ff00, roughness: 0.05});
 const cube = new THREE.Mesh(geometry, new THREE.MeshLambertMaterial( { color: Math.random() * 0xffffff } ));
 const light = new THREE.DirectionalLight( 0xffffff );
