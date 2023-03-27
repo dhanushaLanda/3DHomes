@@ -1,7 +1,7 @@
 import './App.css';
 // import {animate} from "./threeJsRenderer";
 import {MovingCubes} from "./componenents /MovingCubes";
-import {MovingCircleSpear} from "./MovingCircleSpears";
+import {MovingCircleSpear} from "./componenents /MovingCircleSpears";
 
 function App() {
   return (

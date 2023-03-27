@@ -1,11 +1,11 @@
 import * as Three from 'three';
 
-const nx = require('./textures/cube/pisa/nx.jpg');
-const px = require('./textures/cube/pisa/px.jpg');
-const ny = require('./textures/cube/pisa/ny.jpg');
-const py = require('./textures/cube/pisa/py.jpg');
-const nz = require('./textures/cube/pisa/nz.jpg');
-const pz = require('./textures/cube/pisa/pz.jpg');
+const nx = require('../textures/cube/pisa/nx.jpg');
+const px = require('../textures/cube/pisa/px.jpg');
+const ny = require('../textures/cube/pisa/ny.jpg');
+const py = require('../textures/cube/pisa/py.jpg');
+const nz = require('../textures/cube/pisa/nz.jpg');
+const pz = require('../textures/cube/pisa/pz.jpg');
 let spears = [], renderer, camera, scene, spear;
 let mouseY = 0;
 let mouseX = 0;
