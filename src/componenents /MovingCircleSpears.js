@@ -28,7 +28,8 @@ function createCircleSpears(){
             color: 0xffffff,
             envMap: textureCube,
             transparent: true,
-            refractionRatio: 0.95 }));
+            refractionRatio: 0.95
+        }));
         spear.position.x = Math.random() * 10000 - 5000;
         spear.position.y = Math.random() * 10000 - 5000;
         spear.position.z = Math.random() * 10000 - 5000;
